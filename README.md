@@ -1,4 +1,4 @@
-﻿# content-security-policy
+﻿# content security policy  One time soultion 
 
 It is a one time solution for adding csp headers in SPA like Angular, React etc. I have tested it on only Angular 13 and 14, though. In angular as we know that after compilation the build updates the index.hmtl file that includes avery dependent css and js files for the application. 
 When we add csp headers in http response it points to this index.html file and consider every *.css and *.js file as from external sources and blocks them. This can be resolved by adding hash value of each of these file in csp header (script-src). 
