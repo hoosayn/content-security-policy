@@ -1,32 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.elm.asif</groupId>
+    <groupId>com.elm.tajeer</groupId>
     <artifactId>valve-csp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>valve-csp</name>
-    <url>http://bluelotussoftware.com</url>
-    <developers>
-        <developer>
-            <id>jyeary</id>
-            <name>John Yeary</name>
-            <email>jyeary@bluelotussoftware.com</email>
-            <organization>Blue Lotus Software, LLC.</organization>
-            <organizationUrl>http://www.bluelotussoftware.com</organizationUrl>
-            <timezone>-5</timezone>
-            <url>http://javaevangelist.blogspot.com</url>
-            <roles>
-                <role>Principal</role>
-            </roles>
-        </developer>
-        <developer>
-            <name>Asif</name>
-            <email>ahsaikh@elm.sa</email>
-            <organization>Elm</organization>
-        </developer>
-    </developers>
+
     <licenses>
         <license>
             <name>Apache License 2.0</name>
@@ -49,14 +30,14 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <!-- jsoup HTML parser library @ https://jsoup.org/ -->
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.15.4</version>
-            <!--<systemPath>${basedir}/src/main/resources/lib/jsoup-1.15.4.jar</systemPath>
-            <scope>
-                system
-            </scope>-->
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
         </dependency>
     </dependencies>
 </project>
